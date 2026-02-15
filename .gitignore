@@ -1,0 +1,12 @@
+# Ignore all files inside data folder
+data/*
+
+# But keep the folder itself
+!data/.gitkeep
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
